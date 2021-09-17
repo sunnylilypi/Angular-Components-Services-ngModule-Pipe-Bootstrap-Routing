@@ -1,0 +1,12 @@
+<h1>Hey! Good Morning</h1>
+
+<div [ngSwitch] = "day">
+    <div *ngSwitchCase = '0'>Today is Sunday! You deserve a break</div>
+    <div *ngSwitchCase = '1'><h3>Today is Monday! Hope you have productive week</h3></div>
+    <div *ngSwitchCase = '2'><h3>Today is Tuesday! Smash your goals</h3></div>
+    <div *ngSwitchCase = '3'><h3>Today is Wednesday! You're already half way through</h3></div>
+    <div *ngSwitchCase = '4'><h3>Today is Thursday! It's like Friday lite</h3></div>
+    <div *ngSwitchCase = '5'><h3>Today is Friday! TGIF!!!</h3></div>
+    <div *ngSwitchCase = '6'><h3>Today is Saturday! Let's party!!:)</h3></div>
+    <div *ngSwitchDefault>Uh oh! Something is wrong</div>
+</div>
